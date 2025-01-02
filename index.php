@@ -11,12 +11,12 @@
             <div class=" d-flex justify-content-center align-items-center">
               <div>
                 <div class="big-title">
-                  <h1>Future is here,</h1>
+                  <h1>Future is here</h1>
                   <h1>Start Exploring now.</h1>
                 </div>
                 <p class="text">
-                  streamline processes, manage resources, track student data, facilitate
-                  communication, and enhance administrative tasks effectively.
+                  Streamline processes , Manage resources , Track student data , Facilitate
+                  Communication , and Enhance Administrative tasks effectively.
                 </p>
                 <div class="cta">
                   <a href="login.php" class="btn">Get started</a>

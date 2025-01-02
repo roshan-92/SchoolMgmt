@@ -103,10 +103,10 @@ error_reporting(0);
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+  <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
     © <?php echo date('Y'); ?> Copyright:
     <a class="text-body" target="_blank" href="https://www.github.com/ProjectsAndPrograms">ProjectsAndPrograms</a>
-  </div>
+  </div> -->
   <!-- Copyright -->
 </footer>
 <script type="text/javascript">

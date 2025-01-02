@@ -105,7 +105,7 @@ if (isset($_SESSION['uid'])) {
               </div>
 
               <div class="text" style="margin-bottom: 20px;display:flex">
-                <a id="backToLogin">back to login?</a>
+                <a id="backToLogin">Back to Login?</a>
               </div>
 
               <div class="button input-box">
@@ -131,8 +131,8 @@ if (isset($_SESSION['uid'])) {
               </div>
 
               <div class="text" style="margin-bottom: 20px;display:flex">
-                <a id="backToforgotPasswordForm">back</a>
-                <a id="resendOTP" style='margin-left: auto;'>resend OTP?</a>
+                <a id="backToforgotPasswordForm">Back</a>
+                <a id="resendOTP" style='margin-left: auto;'>Resend OTP?</a>
               </div>
 
               <div class="button input-box">

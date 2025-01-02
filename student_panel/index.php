@@ -126,7 +126,7 @@
 
 <body>
     <header>
-        <div class="logo" title="University Management System">
+        <div class="logo" title="School Management System">
             <img src="./images/logo.png" alt="">
             <h2>E<span class="danger">R</span>P</h2>
         </div>
