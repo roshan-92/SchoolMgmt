@@ -23,7 +23,7 @@
                         Embark on your coding journey with courage and curiosity. Every line of code you write is a step toward creating something extraordinary. Embrace the challenges, for they will become the milestones of your progress. Remember, every expert was once a beginner. Keep learning, stay persistent, and let your passion guide you. Your potential is limitless.
                     </div>
                     <div class="mb-4" style="width: 100%;  display: flex; align-items: center; justify-content: center;">
-                    <img style="width: 400px;"  src="./images/company-logo.png" class="card-img-bottom" alt="...">
+                    <img style="width: 400px;"  src="./images/company-about.jpg" class="card-img-bottom" alt="...">
                     </div>
                 </div>
 

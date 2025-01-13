@@ -250,6 +250,7 @@
                                 required>
                                 <option selected disabled value="">--select--</option>
                                 <option value="Hariyana">Hariyana</option>
+                                <option value="Bihar">Bihar</option>
                                 <option value="UP">UP</option>
                                 <option value="Delhi">Delhi</option>
                                 <option value="Panjab">Panjab</option>
