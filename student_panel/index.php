@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Dashboard</title>
-    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="shortcut icon" href="./images/icons.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -127,7 +127,7 @@
 <body>
     <header>
         <div class="logo" title="School Management System">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/1.png" alt="">
             <h2>E<span class="danger">R</span>P</h2>
         </div>
         <div class="navbar">

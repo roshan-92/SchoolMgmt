@@ -2,7 +2,7 @@
   <div class="container">
     <div class="logo">
       <a href="./index.php">
-        <img src="./images/logo.png" alt="Logo" />
+        <img src="./images/1.png" alt="Logo" />
       </a>
       <a href="./index.php">
         <h3>SCHOOL MANAGEMENT</h3>
