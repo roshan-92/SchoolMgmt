@@ -17,7 +17,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="./images/logo.png" alt="">
+            <img src="./images/1.png" alt="">
             <h2>E<span class="danger">R</span>P</h2>
         </div>
         <div class="navbar">

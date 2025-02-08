@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
     <title>Fee Recipt</title>
-    <link rel="shortcut icon" href="./images/logo.png">
+    <link rel="shortcut icon" href="./images/1.png">
     <style type="text/css">
       .see-payment{
   height: auto;

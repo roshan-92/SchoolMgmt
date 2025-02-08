@@ -85,11 +85,15 @@ error_reporting(0);
     </div>
     <div class="see-payment">
       <div class="notice-body">
-        <h2>Title:  </h2>
-        <h5>Teacher's Name : Akash</h5>
+        <h2>Title:Salary  </h2>
+        <h5>Teacher's Name : Roshan Kumar</h5>
         <h5>Amount: 6000</h5>
-        <p>Date of Payment: 22/oct/2012</p>
+        <p>Date of Payment: 20/feb/2025</p>
         <button id="paid">Paid Successfully</button>
+                <h5>Teacher's Name : Aditya Kumar</h5>
+                <h5>Amount: 7000</h5>
+                <p>Date of Payment: 20/feb/2025</p>
+                <button id="paid">Paid Successfully</button>
       </div>
     </div>
   </body>
