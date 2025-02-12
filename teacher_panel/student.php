@@ -56,14 +56,14 @@
                             <label for="fullname" class="form-label">Full Name</label>
                             <div class="row">
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="First name"
+                                    <input type="name" class="form-control" placeholder="First name"
                                         aria-label="First name" id="fname" name="fname" required>
                                     <div class="invalid-feedback">
                                         required!
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" placeholder="Last name"
+                                    <input type="name" class="form-control" placeholder="Last name"
                                         aria-label="Last name" id="lname" name="lname" required>
                                     <div class="invalid-feedback">
                                         required!
@@ -76,7 +76,7 @@
 
                         <div class="mb-3">
                             <label for="father" class="form-label">Father name</label>
-                            <input type="text" class="form-control" id="father" aria-describedby="emailHelp"
+                            <input type="name" class="form-control" id="father" aria-describedby="emailHelp"
                                 name="father" required>
                             <div class="invalid-feedback">
                                 required!
@@ -312,7 +312,7 @@
                     <div class="container my-3">
                         <div class="mb-3">
                             <label for="guardian" class="form-label">Guardian name</label>
-                            <input type="text" class="form-control" id="guardian" aria-describedby="emailHelp"
+                            <input type="name" class="form-control" id="guardian" aria-describedby="emailHelp"
                                 name="guardian" required>
                             <div class="invalid-feedback">
                                 required!
