@@ -56,14 +56,14 @@
                             <label for="fullname" class="form-label">Full Name</label>
                             <div class="row">
                                 <div class="col">
-                                    <input type="name" class="form-control" placeholder="First name"
+                                    <input type="name" pattern="[A-Za-z]+" class="form-control" placeholder="First name"
                                         aria-label="First name" id="fname" name="fname" required>
                                     <div class="invalid-feedback">
                                         required!
                                     </div>
                                 </div>
                                 <div class="col">
-                                    <input type="name" class="form-control" placeholder="Last name"
+                                    <input type="name" pattern="[A-Za-z]+" class="form-control" placeholder="Last name"
                                         aria-label="Last name" id="lname" name="lname" required>
                                     <div class="invalid-feedback">
                                         required!
@@ -188,7 +188,7 @@
                         <div class="mb-3">
                             <label for="phone" class="form-label">Phone number</label>
                             <input type="tel" class="form-control" id="phone" name="phone"
-                                placeholder="Enter phone number" required>
+                                placeholder="Enter phone number" maxlength="10" required>
                             <div class="valid-feedback">
                                 <!-- Bootstrap "check" icon for valid input -->
                                 <!-- <i class="bi bi-check text-success"></i> -->
@@ -229,7 +229,7 @@
                                 </div>
                                 <div class="col">
                                     <input type="text" class="form-control" id="zip" placeholder="Zip code"
-                                        aria-label="Last name" name="zip" required>
+                                        aria-label="Last name" name="zip" maxlength="6" required>
                                     <div class="invalid-feedback">
                                         required!
                                     </div>
@@ -317,7 +317,7 @@
                     <div class="container my-3">
                         <div class="mb-3">
                             <label for="guardian" class="form-label">Guardian name</label>
-                            <input type="name" class="form-control" id="guardian" aria-describedby="emailHelp"
+                            <input type="name" pattern="[A-Za-z]+" class="form-control" id="guardian" aria-describedby="emailHelp"
                                 name="guardian" required>
                             <div class="invalid-feedback">
                                 required!
@@ -327,7 +327,7 @@
                         <div class="mb-3">
                             <label for="gphone" class="form-label">Phone number</label>
                             <input type="tel" class="form-control" id="gphone" name="gphone"
-                                placeholder="Enter phone number" required>
+                                placeholder="Enter phone number" maxlength="10" required>
                             <div class="valid-feedback">
                             </div>
                             <div class="invalid-feedback" id="phone-g">
@@ -356,7 +356,7 @@
                                 </div>
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="Zip code"
-                                        aria-label="Last name" id="gzip" name="gzip" requireds>
+                                        aria-label="Last name" id="gzip" name="gzip" maxlength="6" requireds>
                                     <div class="invalid-feedback">
                                         required!
                                     </div>
@@ -367,7 +367,7 @@
 
                         <div class="mb-3">
                             <label for="relation" class="form-label">Relation to teacher</label>
-                            <input type="text" class="form-control" id="relation" aria-describedby="emailHelp"
+                            <input type="text" pattern="[A-Za-z]+" class="form-control" id="relation" aria-describedby="emailHelp"
                                 name="relation" required>
                             <div class="invalid-feedback">
                                 required!
