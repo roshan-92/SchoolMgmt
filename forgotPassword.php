@@ -105,7 +105,7 @@ error_reporting(0);
           }
     }else{
         $response['status'] = 'ERROR';
-        $response['message'] = 'Somehing went wrong!';
+        $response['message'] = 'Something gone wrong!';
     }
 
     echo json_encode($response);
@@ -129,12 +129,12 @@ function getEmailObject($reciever, $otp){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'erp.schoolmanagementsystem@gmail.com';
-    $mail->Password = 'whqbysomdhdjthvr'; 
+    $mail->Username = 'roshanraj69084@gmail.com';
+    $mail->Password = 'hftq jbmk kfiq xbmb'; 
     $mail->SMTPSecure = 'tls';  
     $mail->Port = 587;
     
-    $mail->setFrom('erp.schoolmanagementsystem@gmail.com');
+    $mail->setFrom('roshanraj69084@gmail.com');
     $mail->addAddress(''.$reciever);
   
     $mail->isHTML(true);

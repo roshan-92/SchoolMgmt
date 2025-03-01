@@ -317,7 +317,7 @@
                     <div class="container my-3">
                         <div class="mb-3">
                             <label for="guardian" class="form-label">Guardian name</label>
-                            <input type="name" pattern="[A-Za-z]+" class="form-control" id="guardian" aria-describedby="emailHelp"
+                            <input type="name" pattern="[A-Za-z\s]+" class="form-control" id="guardian" aria-describedby="emailHelp"
                                 name="guardian" required>
                             <div class="invalid-feedback">
                                 required!
