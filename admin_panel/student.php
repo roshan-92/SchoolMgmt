@@ -53,7 +53,7 @@
                 <div class="modal-body">
                     <div class="container my-3">
                         <div class="mb-3">
-                            <label for="fullname" class="form-label">Full Name</label>
+                            <label for="fullname" class="form-label">Full Name <span style="color: red;">*</span></label>
                             <div class="row">
                                 <div class="col">
                                     <input type="name" pattern="[A-Za-z]+" class="form-control" placeholder="First name"
@@ -75,7 +75,7 @@
 
 
                         <div class="mb-3">
-                            <label for="father" class="form-label">Father name</label>
+                            <label for="father" class="form-label">Father name <span style="color: red;">*</span></label>
                             <input type="text" pattern="[A-Za-z\s]+" class="form-control" id="father" aria-describedby="emailHelp" name="father" required>
 
                             <div class="invalid-feedback">
@@ -86,7 +86,7 @@
                         <div class="mb-3">
                             <div class="row">
                                 <div class="col-6">
-                                    <label for="dob" class="form-label">Date of Birth</label>
+                                    <label for="dob" class="form-label">Date of Birth <span style="color: red;">*</span></label>
                                     <input type="date" class="form-control" id="dob" aria-describedby="emailHelp"
                                         name="dob" required>
                                     <div class="invalid-feedback">
@@ -95,7 +95,7 @@
                                 </div>
                                 <div class="col-6 student-image">
 
-                                    <label for="gender" class="form-label">Gender</label>
+                                    <label for="gender" class="form-label">Gender <span style="color: red;">*</span></label>
                                     <select class="form-select" id="gender" name="gender" style="width:100%;" required>
                                         <option selected disabled value="">--select--</option>
                                         <option value="Male">Male</option>
@@ -112,7 +112,7 @@
                         <div class="mb-3">
                             <div class="row">
                                 <div class="col-6">
-                                    <label for="class" class="form-label">Class</label>
+                                    <label for="class" class="form-label">Class <span style="color: red;">*</span></label>
                                     <select class="form-select" id="class" name="class" style="width:100%;" required>
 
                                         <option selected disabled value="">---select--</option>
@@ -138,7 +138,7 @@
                                     </div>
                                 </div>
                                 <div class="col-6">
-                                    <label for="section" class="form-label">Section</label>
+                                    <label for="section" class="form-label">Section <span style="color: red;">*</span></label>
                                     <select class="form-select" id="section" name="section" style="width:100%;"
                                         required>
                                         <option selected disabled value="">--select--</option>
@@ -156,7 +156,7 @@
 
                         <div class="mb-3" id="uploadImageField">
                             <div class="mb-3">
-                                <label for="image" class="form-label">Photo</label>
+                                <label for="image" class="form-label">Photo <span style="color: red;">*</span></label>
                                 <input class="form-control" type="file" id="uploadImage" name="image" placeholder="file"
                                     accept=".png, .jpeg, .jpg">
 
@@ -185,7 +185,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Address Details</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Address Details <span style="color: red;">*</span></h1>
                 <button type="button" class="close mr-2" data-bs-dismiss="modal" aria-label="Close"><i
                         class='bx bx-x'></i></button>
             </div>
@@ -194,7 +194,7 @@
                     <div class="container my-3">
 
                         <div class="mb-3">
-                            <label for="phone" class="form-label">Phone number</label>
+                            <label for="phone" class="form-label">Phone number <span style="color: red;">*</span></label>
                             <input type="tel" class="form-control" id="phone" name="phone"
                                 placeholder="Enter phone number" maxlength="10" required>
                             <div class="valid-feedback">
@@ -205,7 +205,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
+                            <label for="email" class="form-label">Email <span style="color: red;">*</span></label>
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                                 name="email" required>
                             <div class="invalid-feedback">
@@ -214,7 +214,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="address" class="form-label">Address</label>
+                            <label for="address" class="form-label">Address <span style="color: red;">*</span></label>
                             <input type="text" class="form-control" id="address" aria-describedby="emailHelp"
                                 name="address" required>
                             <div class="invalid-feedback">
@@ -224,7 +224,7 @@
 
 
                         <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">City</label>
+                            <label for="exampleInputEmail1" class="form-label">City <span style="color: red;">*</span></label>
                             <div class="row">
                                 <div class="col">
                                 <input type="text" class="form-control" id="city" aria-describedby="emailHelp"
@@ -245,7 +245,7 @@
 
 
                         <div class="mb-3">
-                            <label for="state" class="form-label">State</label>
+                            <label for="state" class="form-label">State <span style="color: red;">*</span></label>
                             <select class="form-select" aria-label="Default select example" id="state" name="state"
                                 required>
                                 <option selected disabled value="">--select--</option>
@@ -314,7 +314,7 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Emergency Contact Details</h1>
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Emergency Contact Details <span style="color: red;">*</span></h1>
                 <button type="button" class="close mr-2" data-bs-dismiss="modal" aria-label="Close"><i
                         class='bx bx-x'></i></button>
             </div>
@@ -323,7 +323,7 @@
 
                     <div class="container my-3">
                         <div class="mb-3">
-                            <label for="guardian" class="form-label">Guardian name</label>
+                            <label for="guardian" class="form-label">Guardian name <span style="color: red;">*</span></label>
                             <input type="name" pattern="[A-Za-z\s]+" class="form-control" id="guardian" aria-describedby="emailHelp"
                                 name="guardian" required>
                             <div class="invalid-feedback">
@@ -332,7 +332,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="gphone" class="form-label">Phone number</label>
+                            <label for="gphone" class="form-label">Phone number <span style="color: red;">*</span></label>
                             <input type="tel" class="form-control" id="gphone" name="gphone"
                                 placeholder="Enter phone number" maxlength="10" required>
                             <div class="valid-feedback">
@@ -343,7 +343,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="gaddress" class="form-label">Address</label>
+                            <label for="gaddress" class="form-label">Address <span style="color: red;">*</span></label>
                             <input type="text" class="form-control" id="gaddress" aria-describedby="emailHelp"
                                 name="gaddress" required>
                             <div class="invalid-feedback">
@@ -352,7 +352,7 @@
                         </div>
 
                         <div class="mb-3">
-                            <label for="city-info" class="form-label">City</label>
+                            <label for="city-info" class="form-label">City <span style="color: red;">*</span></label>
                             <div class="row">
                                 <div class="col">
                                     <input type="text" class="form-control" placeholder="City name"
@@ -373,7 +373,7 @@
 
 
                         <div class="mb-3">
-                            <label for="relation" class="form-label">Relationship to Student</label>
+                            <label for="relation" class="form-label">Relationship to Student <span style="color: red;">*</span></label>
                             <input type="text" pattern="[A-Za-z]+" class="form-control" id="relation" aria-describedby="emailHelp"
                                 name="relation" required>
                             <div class="invalid-feedback">
